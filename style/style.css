@@ -1,0 +1,350 @@
+/* Общиее */
+
+* { font-size: 24px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat'
+}
+
+html {
+    background-color: rgba(114, 143, 178, 0.297);
+    scroll-behavior: smooth;
+}
+.icon {
+  vertical-align: middle;
+  margin-left: 5px;
+  width: 24px;
+}
+.menu-li .link-icon{
+  width:min-content;
+}
+  
+ul {
+    list-style-type: none;
+  }
+  
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.wrapper {
+  min-height: 390px;
+    position: relative;
+}
+/* Навигация */
+
+.happy {
+    margin: 0 auto;
+    display: block;
+}
+  
+.smile2{
+    width: 60%;
+}
+.menu {
+    min-width: 152px;
+    background-color: rgba(11, 108, 255, 0.237);
+    height: 100vh;
+    width: 14%;
+    position: fixed;
+    top: 0px;
+    text-align: left;
+}
+
+.menu li:first-child  {
+  margin-top: 1vh;
+}
+  
+.menu-li {
+    font-size: 20px;
+    padding-left:10%;
+    margin-bottom: 10px;
+    font-weight: 200;
+}
+  
+.menu-li a {
+    font-size: 20px;
+    margin-right: 5px;
+    display: inline-block;
+    width: 80%;
+    border-radius: 5px;
+}
+  
+.menu-li a:hover {
+    background-color: rgba(46, 57, 75, 0.32);
+    transition: 0.5s;
+    
+}
+
+/* Главное */
+
+main {
+    margin-left: 20%;
+    margin-right: 10%;
+    width: 70%;
+}
+  
+  #about {
+    padding: 2vh;
+    margin: 2vh auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2vh;
+    border-radius: 20px;
+    background-color: rgba(105, 163, 198, 0.342);
+}
+
+  .about-me {
+    margin: auto ;
+    text-align: justify;
+    max-width: 60%;
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.about-me h1 {
+    font-weight: 500;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+  
+  .about-me h2 {
+    display: inline;
+    font-weight: 400;
+    font-size: 24px;
+}
+   
+  .my-photo {
+    min-width: 250px;
+    max-height: 300px;
+    max-width: 300px;
+    width: 30%;
+    border-radius: 50%;
+}
+  
+
+
+  /* Навыки */
+  #skills {
+    padding: 2vh;
+    border-radius: 20px;
+    background-color: rgba(105, 163, 198, 0.342);
+    margin: 2vh auto;
+  }
+  .strong-skills {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 2vh;
+
+  }
+
+  .left{
+    text-align: left;
+  }
+  .right{
+    text-align: right;
+  }
+
+
+  table {
+    border-collapse: collapse;
+  }
+
+  th {
+    text-align: center;
+    font-weight: 500;
+    width:18rem;
+    margin-left: 5vh;
+    line-height: 40px;
+    margin-bottom: 4vh;
+  }
+
+  td {
+    font-weight: 300;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    width: 30%;
+    line-height: 40px;
+  }
+
+  /* Проекты */
+  #proect{
+    padding: 2vh;
+    border-radius: 20px;
+    background-color: rgba(105, 163, 198, 0.342);
+    margin: 2vh auto;
+  }
+
+  .strong{
+  
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 2vh;
+  }
+
+  .about-proect{
+    font-weight: 300;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+
+  .link-proect{
+    line-height: 40px;
+    text-align: center;
+  }
+
+  .link-proect a {
+    color: rgb(27, 13, 78);}
+
+  .link-proect a:hover {
+    background-color: bisque;
+    padding: 10px 15px;
+    border-radius: 15%;
+  }
+
+  /* Код */
+  #code {
+    padding: 2vh;
+    border-radius: 20px;
+    background-color: rgba(105, 163, 198, 0.342);
+    }
+
+  .my-code{
+    margin-top: 2vh;
+    font-weight: 300;
+    }
+
+  .ex-code {
+    font-weight: 500;
+    margin: 0 auto;
+    width: min-content;
+}
+
+/* Работа */
+
+  #rabota{
+    padding: 2vh;
+    border-radius: 20px;
+    background-color: rgba(105, 163, 198, 0.342);
+    margin-top: 2vh;
+
+}
+
+/* Учеба */
+
+  #ucheba {
+    padding: 2vh;
+    border-radius: 20px;
+    background-color: rgba(105, 163, 198, 0.342);
+    margin-top: 2vh;
+}
+
+/* Контакты */
+
+  #contakts{
+    padding: 2vh;
+    border-radius: 20px;
+    background-color: rgba(105, 163, 198, 0.342);
+    margin-top: 2vh;
+    line-height: 32px
+}
+
+  .name{
+    margin-top: 1vh;
+    width: 49%;
+    display: inline-block;
+    font-weight: 300;
+    text-align: left;
+ 
+}
+
+  .answer{
+    margin-top: 1vh;
+    display: inline-block;
+    width: 48%;
+    font-weight: 500;
+    text-align: right;
+}
+
+
+/* Добавил заглавную страницу */
+
+
+.container-smile{
+  width: 60%;
+  margin: 4vh auto;
+}
+.botton-ru{
+  display: block;
+  margin: 3vh auto;
+  background: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(121, 149, 190));
+}
+
+.ru-ru {
+  margin-top: 10vh;
+  margin-bottom: 5%;
+}
+
+.eng-emg {
+  margin-bottom: 5%;
+}
+
+
+
+.smile {
+display: block;
+width: 20%;
+margin: 0 auto;}
+
+.botton-eng{
+  display: block;
+  margin: 3vh auto;
+  background: linear-gradient(to bottom left, rgb(255, 255, 255), rgb(121, 149, 190));
+}
+
+@media (max-width: 940px) {
+    .menu {
+        width: 25%;
+    }
+    main {
+        margin-left: 27%;
+        margin-right: 1%;
+    }
+
+    .my-photo {
+        margin: auto;
+        width: 50%;
+        border-radius: 50%;
+    }
+
+    .about-me {
+        max-width: 80%;
+    }
+
+    .ex-code {
+        font-size: 10px;
+        font-weight: 500;
+        margin: 0 -16vh;
+        width: max-content;
+    }
+}
+
+@media (max-width: 400px)
+{
+  .menu{
+    display: none;
+  }
+
+  .wrapper {
+    width: 52vh;
+  }
+
+  main {
+    margin: 0 auto;
+    width: 100%;
+
+}
+}
