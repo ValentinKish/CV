@@ -129,6 +129,7 @@ main {
 
   /* Навыки */
   #skills {
+    overflow: auto;
     padding: 2vh;
     border-radius: 20px;
     background-color: rgba(105, 163, 198, 0.342);
@@ -172,6 +173,7 @@ main {
 
   /* Проекты */
   #proect{
+    overflow: auto;
     padding: 2vh;
     border-radius: 20px;
     background-color: rgba(105, 163, 198, 0.342);
@@ -207,6 +209,7 @@ main {
 
   /* Код */
   #code {
+    overflow: auto;
     padding: 2vh;
     border-radius: 20px;
     background-color: rgba(105, 163, 198, 0.342);
@@ -226,6 +229,7 @@ main {
 /* Работа */
 
   #rabota{
+    overflow: auto;
     padding: 2vh;
     border-radius: 20px;
     background-color: rgba(105, 163, 198, 0.342);
