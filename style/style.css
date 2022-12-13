@@ -368,7 +368,7 @@ margin: 0 auto;}
   font-size: 6vw;
 }
 html {
-  width: min-content;
+/*   width: min-content; */
 }
 .wrapper {
   width: 100%;
