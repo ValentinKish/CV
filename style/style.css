@@ -1,6 +1,6 @@
 /* Общиее */
 
-* { font-size: 24px;
+* { font-size: 1.5vw;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -30,7 +30,7 @@ a {
 }
 
 .wrapper {
-  min-height: 390px;
+  min-width: 390px;
     position: relative;
 }
 /* Навигация */
@@ -58,14 +58,14 @@ a {
 }
   
 .menu-li {
-    font-size: 20px;
+    font-size: 1.5vw;
     padding-left:10%;
     margin-bottom: 10px;
     font-weight: 200;
 }
   
 .menu-li a {
-    font-size: 20px;
+    font-size: 1.5vw;
     margin-right: 5px;
     display: inline-block;
     width: 80%;
@@ -100,13 +100,11 @@ main {
     margin: auto ;
     text-align: justify;
     max-width: 60%;
-    font-size: 24px;
     font-weight: 200;
 }
 
 .about-me h1 {
     font-weight: 500;
-    font-size: 32px;
     text-align: center;
     margin-bottom: 2vh;
 }
@@ -114,7 +112,6 @@ main {
   .about-me h2 {
     display: inline;
     font-weight: 400;
-    font-size: 24px;
 }
    
   .my-photo {
@@ -136,7 +133,7 @@ main {
     margin: 2vh auto;
   }
   .strong-skills {
-    font-size: 32px;
+    font-size:2vw;
     font-weight: 500;
     margin-bottom: 2vh;
 
@@ -182,7 +179,7 @@ main {
 
   .strong{
   
-    font-size: 32px;
+    font-size: 2vw;
     font-weight: 500;
     margin-bottom: 2vh;
   }
@@ -224,7 +221,7 @@ main {
     font-weight: 500;
     margin: 0 auto;
     width: min-content;
-}
+  }
 
 /* Работа */
 
@@ -309,10 +306,17 @@ margin: 0 auto;}
   background: linear-gradient(to bottom left, rgb(255, 255, 255), rgb(121, 149, 190));
 }
 
-@media (max-width: 940px) {
+@media (max-width: 965px) {
+  * { font-size: 3vw;
+    }
     .menu {
         width: 25%;
     }
+
+    .strong {
+  
+      font-size: 6vw;}
+
     main {
         margin-left: 27%;
         margin-right: 1%;
@@ -342,13 +346,42 @@ margin: 0 auto;}
     display: none;
   }
 
-  .wrapper {
-    width: 52vh;
-  }
-
   main {
-    margin: 0 auto;
-    width: 100%;
-
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 106%;
 }
+
+.del-if-small {
+  display: none;
+}
+.ex-code {
+  font-weight: 500;
+  width: 50%;
+}
+
+.strong-skills {
+  font-size:6vw;
+}
+.strong{
+  
+  font-size: 6vw;
+}
+html {
+  width: min-content;
+}
+.wrapper {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin: 0;
+  padding: 0;
+  width:100%;
+}
+
+
+
 }
