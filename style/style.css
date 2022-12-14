@@ -14,7 +14,7 @@ html {
 .icon {
   vertical-align: middle;
   margin-left: 5px;
-  width: 24px;
+  width: 3vw;
 }
 .menu-li .link-icon{
   width:min-content;
@@ -30,12 +30,12 @@ a {
 }
 
 .wrapper {
-  min-width: 390px;
     position: relative;
 }
 /* Навигация */
 
 .happy {
+    width: 30%;
     margin: 0 auto;
     display: block;
 }
@@ -44,10 +44,10 @@ a {
     width: 60%;
 }
 .menu {
-    min-width: 152px;
+    /* min-width: 152px; */
     background-color: rgba(11, 108, 255, 0.237);
     height: 100vh;
-    width: 14%;
+    width: 17%;
     position: fixed;
     top: 0px;
     text-align: left;
@@ -58,14 +58,14 @@ a {
 }
   
 .menu-li {
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     padding-left:10%;
     margin-bottom: 10px;
     font-weight: 200;
 }
   
 .menu-li a {
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     margin-right: 5px;
     display: inline-block;
     width: 80%;
@@ -126,8 +126,7 @@ main {
 
   /* Навыки */
   #skills {
-    overflow: auto;
-    padding: 2vh;
+    padding: 1vh;
     border-radius: 20px;
     background-color: rgba(105, 163, 198, 0.342);
     margin: 2vh auto;
@@ -198,10 +197,11 @@ main {
   .link-proect a {
     color: rgb(27, 13, 78);}
 
-  .link-proect a:hover {
-    background-color: bisque;
-    padding: 10px 15px;
-    border-radius: 15%;
+  .img-project{
+    box-shadow: gray 0 0 20px 5px;
+    margin: 0 auto;
+    width: 60%;
+    border-radius: 20px;
   }
 
   /* Код */
@@ -307,17 +307,46 @@ margin: 0 auto;}
 }
 
 @media (max-width: 965px) {
-  * { font-size: 3vw;
-    }
+
+  * {
+    font-size: 2.5vw;
+  }
+
+  td, th {
+  line-height: 4vw;
+  }
+
+  .left{
+    margin: 0;
+    text-align: left;
+  }
+  .right{
+    margin: 0;
+    text-align: right;
+  }
+
+  .menu-li {
+    font-size: 2vw;
+
+}
+  
+.menu-li a {
+    font-size: 2vw;}
+
+
     .menu {
         width: 25%;
+    }
+    a {
+        font-size: 2vw;
     }
 
     .strong {
   
-      font-size: 6vw;}
+      font-size: 4vw;}
 
     main {
+      width: 70%;
         margin-left: 27%;
         margin-right: 1%;
     }
@@ -335,29 +364,40 @@ margin: 0 auto;}
     .ex-code {
         font-size: 10px;
         font-weight: 500;
-        margin: 0 -16vh;
-        width: max-content;
+      margin: 0 auto;
+     
     }
 }
 
-@media (max-width: 400px)
-{
+@media (max-width: 400px) {
+
+  * {
+    font-size: 3vw;
+  }
+
   .menu{
     display: none;
   }
 
-  main {
-    margin-left: 2%;
-    margin-right: 2%;
-    width: 106%;
-}
-
 .del-if-small {
   display: none;
 }
+#code {
+  overflow: auto;
+  padding: 2vh;
+  border-radius: 20px;
+  background-color: rgba(105, 163, 198, 0.342);
+  }
+
+.my-code{
+  margin-top: 2vh;
+  font-weight: 300;
+  }
+
 .ex-code {
   font-weight: 500;
-  width: 50%;
+  margin: 0 auto;
+  width: min-content;
 }
 
 .strong-skills {
@@ -368,18 +408,29 @@ margin: 0 auto;}
   font-size: 6vw;
 }
 html {
-  width: min-content;
+  visibility: visible;
+
+  width:90%;
 }
-.wrapper {
-  width: 100%;
-  margin: 0;
-  padding: 0;
+
+.wrapper {  
+  min-width: 370px;
+  visibility: visible;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 main {
-  margin: 0;
-  padding: 0;
-  width:100%;
+  visibility: visible;
+  margin-left: 5px;
+  margin-right: 5px;
+  width:99%;
+}
+
+.happy {
+  width: 50%;
+margin-left: 30%;
+  display: block;
 }
 
 
